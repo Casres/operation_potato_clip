@@ -3,17 +3,28 @@ body {
 }
 
 #container {
+    margin-top: 20rem;
     border: 0.15rem solid #9e9e9e;
 }
 
 #button_container {
+    display: flex;
+    justify-content: space-around;
     background-color: darkcyan;
 }
 
-#my-button {
+.my-button {
+    transition: .45s;
+    border: none;
+    border-radius: 2rem;
+    margin: 2rem;
     padding: 1rem 3rem
 }
 
-#my-button:hover {
+.my-button:hover {
     cursor: pointer;
+    background-color: #5c5959;
+    transform: scale(1.45);
+    transition: .45s;
+    color: #ffffff;
 }

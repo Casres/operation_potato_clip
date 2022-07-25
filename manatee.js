@@ -13,22 +13,32 @@
 
 // buttonEl.addEventListener('click', clickHandler);
 
-const buttonEl = document.getElementById('my-button');
+// const buttonEl = document.getElementById('my-button');
 
-const clickHandler = function () {
-    let count = 0;
-    
-    if (count >= 5 ) {
-        return this.textContent = `potatoes: ${count}`
-    }
+// const clickHandler = function () {
+//     let count = 0;
 
-    return function () {
-        count++;
-        this.textContent = `hips: ${count}`;
-        
-        console.log('btn is clicked, commander');
-    }
-};
+//     if (count >= 5 ) {
+//         return this.textContent = `potatoes: ${count}`
+//     }
 
-buttonEl.addEventListener('click', clickHandler()); 
+//     return function () {
+//         count++;
+//         this.textContent = `hips: ${count}`;
 
+//         console.log('btn is clicked, commander');
+//     }
+// };
+
+// buttonEl.addEventListener('click', clickHandler());
+
+// const containerEl = document.getElementById("container");
+
+// const clickHandler = function (event) {
+//   if (event.target.matches("button")) {
+//     event.target.textContent = "Clicked!";
+//   }
+// };
+
+// containerEl.addEventListener("click", clickHandler);
+  

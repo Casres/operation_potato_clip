@@ -1,0 +1,23 @@
+{
+  "name": "module_17",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Casres/operation_potato_clip.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Casres/operation_potato_clip/issues"
+  },
+  "homepage": "https://github.com/Casres/operation_potato_clip#readme",
+  "dependencies": {
+    "benchmark": "^2.1.4"
+  }
+}
